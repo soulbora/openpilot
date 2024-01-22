@@ -1,0 +1,10 @@
+[user]
+	email = soulbora@gmail.com
+	name = soulbora
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[http]
+	version = HTTP/1.1
+	postBuffer = 524288000
